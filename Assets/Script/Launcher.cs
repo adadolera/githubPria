@@ -13,7 +13,11 @@ public class Launcher : MonoBehaviourPunCallbacks
     // Start is called before the first frame update
     void Start()
     {
+<<<<<<< HEAD
         Debug.Log("Correción de bug aplicada");
+=======
+        Debug.Log("Nueva funcionalidad añadida");
+>>>>>>> nueva-funcionalidad
         PhotonNetwork.JoinRandomOrCreateRoom();
     }
 
